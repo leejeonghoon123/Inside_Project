@@ -10,10 +10,12 @@
 혼자 여행떠나는 사람들을 위한 여행 정보 및 동행 커뮤니티 웹 사이트
 
 프로젝트 PPT 링크
-https://drive.google.com/file/d/178Kth7KhLZwpo95xBHwDO4oGZURn7eDX/view
+
+https://docs.google.com/presentation/d/178Kth7KhLZwpo95xBHwDO4oGZURn7eDX/edit?usp=drive_link&ouid=111395906769681143444&rtpof=true&sd=true
 
 시연영상 링크
-https://drive.google.com/drive/my-drive
+
+https://drive.google.com/file/d/1nLhq2J0ERVnUseb9K_XnLkZEVF-jUPxo/view?usp=drive_link
 
 ------------------------------------------------------------------------------------------------------------------------
 
