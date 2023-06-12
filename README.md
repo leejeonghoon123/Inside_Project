@@ -28,6 +28,9 @@ https://drive.google.com/file/d/1nLhq2J0ERVnUseb9K_XnLkZEVF-jUPxo/view?usp=drive
 나 혼자 여행이라는 웹 사이트를 개발하며 여러 사람들이 여행 정보도 공유하고, 동행할 친구를 찾거나,
 커뮤니티 기능을 활발히 사용 할 수있도록 노력하였다.
 
+코드는 MVC 모델을 이용해 controller > service > dao 로 흐르게 하였고, 
+model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하였다.
+
 일단 기본적으로 비로그인자들도 모든 글들을 볼 수 있도록 구성하였고, 로그인한 회원일 경우 모든 기능들을 사용 할 수 있게 하였다.
     
     참고      커뮤니티 관련 코드들
