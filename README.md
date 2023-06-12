@@ -11,7 +11,7 @@
 
 프로젝트 PPT 링크
 
-https://docs.google.com/presentation/d/178Kth7KhLZwpo95xBHwDO4oGZURn7eDX/edit?usp=drive_link&ouid=111395906769681143444&rtpof=true&sd=true
+https://docs.google.com/presentation/d/178Kth7KhLZwpo95xBHwDO4oGZURn7eDX/edit?usp=sharing&ouid=111395906769681143444&rtpof=true&sd=true
 
 시연영상 링크
 
