@@ -77,7 +77,8 @@ model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하�
 
 커뮤니티 형식의 웹 사이트이기 때문에 데이터들을 조각들로 나누어 효율적으로 관리,탐색하기 위해 페이징처리를 해두었다. 
 
-![44](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/859e3ca7-47eb-4900-b4dc-f2b35130cf9f)
+![페이징](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/36115bc5-61ac-48c9-8478-1ad9128c966d)
+
 
 위 사진같은 형식으로 10개의 리스트를 1개의 페이지로 묶어두었다.
 
@@ -90,18 +91,20 @@ model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하�
 1. 현재 위치한 게시판 위치를 표시, 해당하는 게시판의 게시글만 보임.
 b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
-![55](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/e25b5ff2-01c7-4d94-9dbd-c2c0a7ba22fd)
+![필터링1](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/821df295-4d97-44eb-afb5-fd7018248f67)
 
 
 2. 위치한 게시판에서 이미지가 첨부된 게시글들만 필터링 해줌.
 체크박스 클릭 시 board 의 img_stored_file_yn 칼럼 값으로 필터링
    
-![66](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/2d9b1317-8a54-4231-8844-e5d32c73aecb)
+![필터링2](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/c8920656-a107-46c7-b75e-e8f590cf41b9)
+
 
 3. 게시판의 리스트 정렬방식을 원하는 방식으로 바꿔서 볼 수 있게 작성함.
 기본 값은 최신순으로 되어있음. 조회수 순이나 추천 순으로 바꿀 시 sql문에서 해당하는 조건으로 리스트 정렬
 
-![77](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/941ef302-068e-4c16-bb83-cecc3a410891)
+![필터링3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/633daeec-aec3-4866-948c-8c4720a1d397)
+
 
 ------------------------------------------------------------------------------------------------------------------------
 
