@@ -34,9 +34,31 @@ model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하�
 일단 기본적으로 비로그인자들도 모든 글들을 볼 수 있도록 구성하였고, 로그인한 회원일 경우 모든 기능들을 사용 할 수 있게 하였다.
     
     참고      커뮤니티 관련 코드들
-    view       =  s20230404 > src > main > webapp/WEB-INF/view > ro > *.jsp
-    model      =  s20230404 > src > main > java/com/travleAlone/s20230404 > model > Board.java, BodImg.java, Warning.java
-    controller =  s20230404 > src > main > java/com/travleAlone/s20230404 > controller > BoardController.java
-    service    =  s20230404 > src > main > java/com/travleAlone/s20230404 > service > board > *.java
-    dao        =  s20230404 > src > main > java/com/travleAlone/s20230404 > dao > board > *.java
-    mapper     =  s20230404 > src > main > resources > mappers > Board.xml, Bod_Img.xml, Warning.xml
+    view       =  s20230404 / src / main / webapp/WEB-INF/view / ro / *.jsp
+    model      =  s20230404 / src / main / java/com/travleAlone/s20230404 / model / Board.java, BodImg.java, Warning.java
+    controller =  s20230404 / src / main / java/com/travleAlone/s20230404 / controller / BoardController.java
+    service    =  s20230404 / src / main / java/com/travleAlone/s20230404 / service / board / *.java
+    dao        =  s20230404 / src / main / java/com/travleAlone/s20230404 / dao / board / *.java
+    mapper     =  s20230404 / src / main / resources / mappers / Board.xml, Bod_Img.xml, Warning.xml
+
+------------------------------------------------------------------------------------------------------------------------
+
+    디자인
+
+
+이번 내부 프로젝트의 주제가 '혼자 떠나는 여행'이기 때문에 최대한 주제에 맞는 색감과 디자인을 구성하였다.
+혼자 여행다니는 사람들의 기대되고 걱정되는 마음을 고슴도치를 이용하여 이번 프로젝트의 캐릭터로 디자인 하였다.
+![Logo](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/3034828a-133c-4662-9d07-5f5cd88300d1)
+![고순이2](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/aa92c396-c141-40ae-95b5-dc5527d9c2e0)
+![오류페이지](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/a6b2059e-279c-42bd-a11a-b67d8f69939e)
+이 외에 필요한 이미지가 있으면 컨셉에 맞추어 디자인하여 사용하였다.
+
+또한 여행이라는 컨셉에 맞게 여행지를 나타내는 청록색계열의 색을 사용하고, 둥글둥글한 css디자인으로 조금 더 라이트한 커뮤니티 느낌을 주었다.
+![3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/6e54f979-e291-4e38-a12e-d8e74703afef)
+
+![4](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/4427e898-e010-4440-95af-2fe6a3fb538e)
+
+    참고 
+    이미지  = s20230404 / src / main / resources / static / img / *.png
+    CSS     = s20230404 / src / main / resources / static / *.css
+    
