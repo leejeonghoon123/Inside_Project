@@ -144,4 +144,17 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 댓글의 나열 순서는 먼저 작성한 순서대로 나열되게 해두었다.
 
 ![대댓글](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/81d02ce6-7e26-4ee8-aa7d-e33994d1aa9f)
- 
+
+------------------------------------------------------------------------------------------------------------------------
+
+    신고
+
+
+로그인한 회원의 경우 게시글작성자, 댓글 작성자를 사유에 따라 신고 가능하다.
+
+같은 사유로 중복신고 악용을 막기 위해 작성글PK + 신고사유 + 신고자 로 쿠키 키를 만들어 중복 검사를 하였다.
+
+![신고1](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/aa02b30e-c8d2-4f20-bc31-c01a30f6deba)
+
+![신고2](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/e3b678b4-5d9b-4d1c-b0b0-fb68a4a38b8b)
+
