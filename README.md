@@ -110,11 +110,17 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
     추천
 
-게시글의 본문 아래 쪽에 추천 버튼을 누를 시 추천수가 증가되고, 추천을 한 게시글일 경우, 추천이 취소되도록 작성하였다.
+게시글의 본문 아래 쪽에 추천 버튼을 누를 시 추천수가 증가되도록 작성하였다.
 
 ![추천1](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/865805e8-06d3-46ed-b559-8abd38ed2354)
 
-추천 기능은, 조회수,신고 와 마찬가지로 중복되게 증가하지 않도록 각각의 쿠키 키를 생성하여 중복확인을 하였다.
+![추천2](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/d9aa0079-4c87-4509-b0ac-3afa67476d6a)
+
+만약 로그인하지 않은 회원의 경우 로그인 페이지로, 추천한 게시글일시 추천이 취소된다.
+
+![추천3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/74861e1c-5db1-4dbb-8304-fcb0ca48d00c)
+
+![추천4](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/6fe9c6c0-b07f-431c-aeef-3b2a7968e5bf)
 
 ------------------------------------------------------------------------------------------------------------------------
 
