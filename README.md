@@ -246,10 +246,27 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 같은 사유로 중복신고 악용을 막기 위해 작성글PK + 신고사유 + 신고자 로 쿠키 키를 만들어 중복 검사를 하였다.
 
+신고 버튼을 클릭 시 신고사유에 관한 창이 나타나도록 script로 숨겨두었다.
+
 ![신고1](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/aa02b30e-c8d2-4f20-bc31-c01a30f6deba)
 
 ![신고2](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/e3b678b4-5d9b-4d1c-b0b0-fb68a4a38b8b)
 
+    참고
+    s20230404 / src / main / webapp / WEB-INF / views / ro / detailBoardForm.jsp 89줄 ~ 104줄, 170줄 ~ 182줄
+    
+    js
+    s20230404 / src / main / resources / static / js / detailBoardWarning.js
+
+    Controller
+    s20230404 / src / main / java/com/travelAlone / s20230404 / controller / BoardController.java
+    396줄 ~ 448줄
+    
+    SQL
+    s20230404 / src / main / resources / mappers / Warning.xml
+
+
+    
 <br><br><br><br>
 
 <h1>맴버페이지</h1>
