@@ -107,11 +107,16 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 ![필터링1](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/821df295-4d97-44eb-afb5-fd7018248f67)
 
+    참고
+    s20230404 / src / main / webapp / WEB-INF / views / ro / boardHeader.jsp
 
 2. 위치한 게시판에서 이미지가 첨부된 게시글들만 필터링 해줌.
 체크박스 클릭 시 board 의 img_stored_file_yn 칼럼 값으로 필터링
    
 ![필터링2](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/c8920656-a107-46c7-b75e-e8f590cf41b9)
+
+    참고
+    s20230404 / src / main / webapp / WEB-INF / views / ro / boardListForm.jsp 80줄 ~ 102줄
 
 
 3. 게시판의 리스트 정렬방식을 원하는 방식으로 바꿔서 볼 수 있게 작성함.
@@ -120,9 +125,9 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 ![필터링3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/633daeec-aec3-4866-948c-8c4720a1d397)
 
     참고
-    1.
-    s20230404/src/main/webapp/WEB-INF/views/ro/boardHeader.jsp
-    s20230404 / src / main / java/com/travleAlone/s20230404 / service / Paging.java
+    s20230404 / src / main / webapp / WEB-INF / views / ro / boardListForm.jsp 59줄 ~ 62
+    s20230404 / src / main / resources / mappers / Board.xml  9줄~ 161줄
+   
 
 <br><br><br><br>
 
