@@ -48,10 +48,12 @@ model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하�
 ![1](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/bc727182-7732-4f0e-9659-56c7a0514d72)
 ![2](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/b56e3d9d-7d91-47f0-b2d2-2a931ac39db4)
 ![3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/cb4330d2-15c6-4dd9-afaf-f7c3a11d5ca7)
+
 고슴도치 캐릭터 디자인, 로고
 
 
 ![4](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/5d92d7a5-f40c-489a-8744-18e6921f19c9)
+
 전체적인 디자인 색상
 
 
