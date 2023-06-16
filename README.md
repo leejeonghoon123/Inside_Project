@@ -91,7 +91,9 @@ model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하�
     참고
     s20230404 / src / main / java/com/travleAlone/s20230404 / service / Paging.java
 
-<h3>필터링</h3>
+<br><br><br><br>
+
+<h1>필터링</h1>
 
 커뮤니티 페이지에서 편의성을 위해 선택한 항목에 대한 필터링처리를 해두었다.
 
@@ -112,7 +114,7 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 ![필터링3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/633daeec-aec3-4866-948c-8c4720a1d397)
 
-
+<br><br><br><br>
 
 <h1>추천</h1>
 
@@ -128,7 +130,7 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 ![추천4](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/6fe9c6c0-b07f-431c-aeef-3b2a7968e5bf)
 
-
+<br><br><br><br>
 
 <h1>이미지 업로드</h1>
 
@@ -150,7 +152,7 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 ![대댓글](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/81d02ce6-7e26-4ee8-aa7d-e33994d1aa9f)
 
-
+<br><br><br><br>
 
 <h1>신고</h1>
 
@@ -163,6 +165,7 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 ![신고2](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/e3b678b4-5d9b-4d1c-b0b0-fb68a4a38b8b)
 
+<br><br><br><br>
 
 <h1>맴버페이지</h1>
 
