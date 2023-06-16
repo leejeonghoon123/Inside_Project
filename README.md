@@ -79,7 +79,8 @@ model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하�
 
 위 사진같은 형식으로 10개의 리스트를 1개의 페이지로 묶어두었다.
 
-
+    참고
+    s20230404 / src / main / java/com/travleAlone/s20230404 / service / Paging.java
 
 <h3>필터링</h3>
 
