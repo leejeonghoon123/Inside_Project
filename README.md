@@ -155,6 +155,17 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 ![추천4](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/6fe9c6c0-b07f-431c-aeef-3b2a7968e5bf)
 
+    참고
+    
+    화면에 나타나는 버튼
+    s20230404 / src / main / webapp / WEB-INF / views / ro / detailBoardForm.jsp 76줄 ~ 82줄
+    
+    Controller
+    s20230404 / src / main / java/com/travelAlone / s20230404 / controller / BoardController.java 338줄 ~ 393줄
+
+    SQL문
+    s20230404 / src / main / resources / mappers / Board.xml 279줄~290줄
+
 <br><br><br><br>
 
 <h1>이미지 업로드</h1>
