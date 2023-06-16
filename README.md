@@ -119,7 +119,14 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 ![필터링3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/633daeec-aec3-4866-948c-8c4720a1d397)
 
+    참고
+    1.
+    s20230404/src/main/webapp/WEB-INF/views/ro/boardHeader.jsp
+    s20230404 / src / main / java/com/travleAlone/s20230404 / service / Paging.java
+
 <br><br><br><br>
+
+
 
 <h1>추천</h1>
 
