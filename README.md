@@ -294,6 +294,29 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
     484줄 ~ 494줄, 563줄 ~ 612줄
 
     SQL
-    s20230404 / src / main / resources / mappers / Board.xml 321줄 ~ 326
-     
-    
+    s20230404 / src / main / resources / mappers / Board.xml 321줄 ~ 326줄
+
+<br><br><br><br>
+
+<h1>마이 페이지</h1>
+로그인한 회원이 자신이 작성한 글, 상세정보 등을 볼 수 있는 페이지다.
+
+회원이 작성한 글, 리뷰등 활동한 내역들을 정리해둔 페이지로 갈 수 있게 작성해 두었다.
+
+![1](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/51706296-a44e-49bc-b2a2-b866a3bb66b3)
+![2](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/7665040a-3630-4162-a626-45f2eb447f0b)
+
+![3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/bacbd51b-ddf0-4213-a490-734224ed3daf)
+![4](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/7ff4606d-b4b1-48a9-8f82-fdace2d36069)
+
+![5](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/d5d425fa-4995-4eaf-9b1b-aaa4170aaea2)
+![6](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/ea6b24b6-d5dc-4926-9f11-598591a1feed)
+
+
+![7](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/73d524aa-8183-4b54-b00a-d61fa4cd902c)
+![8](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/951d60d7-0c9e-414f-9bd5-18ec5b290024)
+
+
+
+
+
