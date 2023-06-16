@@ -350,11 +350,31 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 ![3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/bacbd51b-ddf0-4213-a490-734224ed3daf)
 ![4](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/7ff4606d-b4b1-48a9-8f82-fdace2d36069)
 
+문의 내역의 경우, 고객센터에 자신이 문의한 내용들을 모아서 보여주는 페이지이다.
+
+해당 문의사항의 답변 여부, 문의내용등을 더 간편하게 확인하기 위해 만들어두었다.
+
+이 부분은 다른 조원들이 만든 코드를 참고하여 JSP만 구상하였다.
+
+    참고
+    s20230404 / src / main / webapp / WEB-INF / views / km / mypage-inquire.jsp
 
 
 ![7](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/73d524aa-8183-4b54-b00a-d61fa4cd902c)
 ![8](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/951d60d7-0c9e-414f-9bd5-18ec5b290024)
 
+즐겨찾기의 경우 여행지, 숙소, 맛집 게시판에서 즐겨찾기 해둔 게시글들을 모아서 보여주는 페이지이다.
+
+즐겨찾기 해둔 게시글들을 확인하고, 제목 클릭 시 바로 해당 게시글로 이동이 가능하다. 
+
+즐겨찾기 체크 버튼을 통해 해당 게시글로 이동하지 않고도 즐겨찾기 해제가 가능하다.
+
+이부분은 다른 조원들이 만든 코드를 참고하여 JSP만 구상하였다.
+
+    참고
+    s20230404 / src / main / webapp / WEB-INF / views / km / mypage-favorites.jsp
+
+    
 
 
 
