@@ -279,3 +279,21 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 ![회원페이지2](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/40452517-52b6-4b5d-b754-5a3d81874a62)
 
+
+    참고
+    s20230404 / src / main / webapp / WEB-INF / views / ro / boardListForm.jsp 94줄 닉네임 클릭 시 이동.
+    
+    모달 창
+    s20230404 / src / main / webapp / WEB-INF / views / km / userpage.jsp
+    
+    js
+    s20230404 / src / main / resources / static / js / userPage.js
+
+    Controller
+    s20230404 / src / main / java/com/travelAlone / s20230404 / controller / BoardController.java
+    484줄 ~ 494줄, 563줄 ~ 612줄
+
+    SQL
+    s20230404 / src / main / resources / mappers / Board.xml 321줄 ~ 326
+     
+    
