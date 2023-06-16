@@ -123,6 +123,9 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
     참고
     s20230404 / src / main / webapp / WEB-INF / views / ro / boardListForm.jsp 80줄 ~ 102줄
+    
+    SQL
+    s20230404 / src / main / resources / mappers / Board.xml 292줄 ~ 297줄
 
 <br><br>
 
@@ -134,6 +137,8 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
     참고
     s20230404 / src / main / webapp / WEB-INF / views / ro / boardListForm.jsp 59줄 ~ 62
+    
+    SQL
     s20230404 / src / main / resources / mappers / Board.xml  9줄~ 161줄
    
 
@@ -185,12 +190,16 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
     s20230404 / src / main / webapp / WEB-INF / views / ro / updateBoardForm.jsp 14줄 ~ 35줄, 56줄~86줄
     
     Controller
-    s20230404 / src / main / java/com/travelAlone / s20230404 / controller / BoardController.java  191줄~208줄, 264줄~279
+    s20230404 / src / main / java/com/travelAlone / s20230404 / controller / BoardController.java
+    191줄 ~ 208줄, 264줄 ~ 279
     
     Service
     s20230404 / src / main / java/com/travelAlone / s20230404 / service / board/BoardServiceImpl.java 
-    104줄~122줄, 145줄~168줄, 188줄 ~ 234줄
+    104줄 ~ 122줄, 145줄 ~ 168줄, 188줄 ~ 234줄
     s20230404 / src / main / java/com/travelAlone / s20230404 / service / board / UploadHandler.java 
+
+    SQL
+    s20230404 / src / main / resources / mappers / Bod_Img.xml
 
 <br><br><br><br>
 
@@ -198,8 +207,21 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 게시글의 댓글, 대댓글 기능또한 구현해두었다. 
 댓글의 나열 순서는 먼저 작성한 순서대로 나열되게 해두었다.
+게시글과 댓글을 DB상으로 따로 테이블을 두지 않고, 하나의 BOARD테이블에 넣어 LEVEL로 나누어 구분한다.
+그리고 자신이 쓴 댓글의 경우, 수정,삭제가 나타나게 해 두었다.
 
 ![대댓글](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/81d02ce6-7e26-4ee8-aa7d-e33994d1aa9f)
+
+    참고
+    s20230404 / src / main / webapp / WEB-INF / views / ro / detailBoardForm.jsp 110줄 ~ 211줄
+
+    Controller
+    s20230404 / src / main / java/com/travelAlone / s20230404 / controller / BoardController.java
+    210줄 ~ 247줄, 297줄 ~ 322줄
+
+    SQL
+    s20230404 / src / main / resources / mappers / Board.xml 192줄 ~ 234줄, 250줄 ~ 267줄
+     
 
 <br><br><br><br>
 
