@@ -91,6 +91,7 @@ model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하�
     참고
     s20230404 / src / main / java/com/travleAlone/s20230404 / service / Paging.java
     s20230404 / src / main / webapp/WEB-INF/view / ro / boardAllListForm.jsp 96줄~104줄 페이징 처리
+    s20230404 / src / main / webapp/WEB-INF/view / ro / boardListForm.jsp 106줄~114줄 페이징 처리 
     
 
 <br><br><br><br>
