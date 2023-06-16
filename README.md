@@ -299,6 +299,7 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 <br><br><br><br>
 
 <h1>마이 페이지</h1>
+
 로그인한 회원이 자신이 작성한 글, 상세정보 등을 볼 수 있는 페이지다.
 
     참고
@@ -310,14 +311,45 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 ![1](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/51706296-a44e-49bc-b2a2-b866a3bb66b3)
 ![2](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/7665040a-3630-4162-a626-45f2eb447f0b)
 
+내가 작성한 글 의 경우, 커뮤니티 게시판에 작성한 글들을 리스트형식으로 보여주게 된다.
+
+10개의 글을 1개의 페이지로 페이징처리 해두었으며, 제목을 클릭 시 해당 게시글로 이동하게된다. 
+
+제목 옆의 작성한 게시판, 작성일, 추천수, 조회수를 표기하였다.
+
     참고
+    s20230404 / src / main / webapp / WEB-INF / views / ro / myPageCommunityList.jsp
+
+    Controller
+    s20230404 / src / main / java/com/travelAlone / s20230404 / controller / BoardController.java
+    452줄 ~ 481줄
+
+    SQL
+    s20230404 / src / main / resources / mappers / Board.xml 299줄 ~ 319줄
+
+![5](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/d5d425fa-4995-4eaf-9b1b-aaa4170aaea2)
+![6](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/ea6b24b6-d5dc-4926-9f11-598591a1feed)
+
+내가 작성한 리뷰의 경우, 여행지, 숙소, 맛집 게시판에서 작성한 리뷰들을 모아서 보여주게된다.
+
+제목 클릭 시, 해당 리뷰를 작성한 게시글로 이동하게 된다.
+
+제목, 리뷰내용, 별점, 작성일 순으로 표기해두었다.
+
+    참고
+    s20230404 / src / main / webapp / WEB-INF / views / ro / reviewPageHou.jsp, reviewPageRes.jsp, reviewPageTra.jsp
     
+    Controller
+    s20230404 / src / main / java/com/travelAlone / s20230404 / controller / BoardController.java
+    496줄 ~ 560줄
+
+    SQL
+    s20230404 / src / main / resources / mappers / Board.xml 328줄 ~ 403줄
+
 
 ![3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/bacbd51b-ddf0-4213-a490-734224ed3daf)
 ![4](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/7ff4606d-b4b1-48a9-8f82-fdace2d36069)
 
-![5](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/d5d425fa-4995-4eaf-9b1b-aaa4170aaea2)
-![6](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/ea6b24b6-d5dc-4926-9f11-598591a1feed)
 
 
 ![7](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/73d524aa-8183-4b54-b00a-d61fa4cd902c)
