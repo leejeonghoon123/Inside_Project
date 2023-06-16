@@ -8,7 +8,6 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 
-
 <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script defer src="/js/detailBoardLoginChk.js"></script>
 <script defer src="/js/userPage.js"></script>
@@ -34,25 +33,25 @@
 			<input type="text" name="keyWord" placeholder="종합 검색" value="${board.keyWord != null ? board.keyWord : ''}">
 		</div>
 	</form>
-		<hr>
-		<form action="list" id="list">
-			<c:choose>
-				<c:when test="${board.b_common_board == 'bor100'}">
-           			<h2>자유 게시판</h2>
-	        	</c:when>
-				<c:when test="${board.b_common_board == 'bor200'}">
-					<h2>정보 게시판</h2>
-				</c:when>
-				<c:when test="${board.b_common_board == 'bor300'}">
-					<h2>질문 게시판</h2>
-				</c:when>
-				<c:when test="${board.b_common_board == 'bor400'}">
-					<h2>홍보 게시판</h2>
-				</c:when>
-				<c:when test="${board.b_common_board == 'bor500'}">
-					<h2>모집 게시판</h2>
-				</c:when>
-			</c:choose>
+	<hr>
+	<form action="list" id="list">
+		<c:choose>
+			<c:when test="${board.b_common_board == 'bor100'}">
+			<h2>자유 게시판</h2>
+		</c:when>
+			<c:when test="${board.b_common_board == 'bor200'}">
+				<h2>정보 게시판</h2>
+			</c:when>
+			<c:when test="${board.b_common_board == 'bor300'}">
+				<h2>질문 게시판</h2>
+			</c:when>
+			<c:when test="${board.b_common_board == 'bor400'}">
+				<h2>홍보 게시판</h2>
+			</c:when>
+			<c:when test="${board.b_common_board == 'bor500'}">
+				<h2>모집 게시판</h2>
+			</c:when>
+		</c:choose>
 			
 	    	<input type="checkbox" id="imgOnlyCheckbox" onclick="imgOnclickCheck()">
 			<label for="imgOnlyCheckbox">이미지 첨부글만 보기</label>
@@ -62,10 +61,10 @@
 	            <option value="like" ${board.orderList == 'like' ? 'selected="selected"' : '' }>추천순</option> 
          	</select>
 			<script>
-               document.getElementById('orderList').onchange = function() {
-                  location.href="listBoard?orderList="+orderList.value+"&b_common_board=${board.b_common_board}&listCategory=${board.listCategory}&keyWord=${board.keyWord}";
-               }
-            </script>    
+				document.getElementById('orderList').onchange = function() {
+					location.href="listBoard?orderList="+orderList.value+"&b_common_board=${board.b_common_board}&listCategory=${board.listCategory}&keyWord=${board.keyWord}";
+				}
+			</script>    
 		</form>
 		
 		
@@ -81,25 +80,25 @@
       	  	<!--  img_stored_file_yn  파일 유무 Check -->
          	<c:forEach var="board" items="${listBoard}">
          		<c:choose>
-					<c:when test="${board.img_stored_file_yn == 0}">
-						<tr class="img_stored_file_no" >
-					</c:when>
-					<c:when test="${board.img_stored_file_yn > 0}">
-						<tr class="img_stored_file_yes" >
-					</c:when>
-				</c:choose>
-							<td style="width: 300px;">
-								<a href="detailBoard?board_id=${board.board_id}&b_common_board=${board.b_common_board }">${board.b_title }</a>
-							</td>
-							<td style="width: 100px;">
-								<a onclick="openUserPage(${board.member_id})">${board.m_nickname }</a>
-							</td>
-							<td style="width: 200px;">${board.getFormattedCreateDate() }</td>
-							<td style="width: 50px;">${board.b_like_cnt }</td>
-							<td style="width: 30px;">${board.b_view_cnt }</td>
-							
-							<c:set var="num" value="${num - 1 }"></c:set>
-						</tr>
+				<c:when test="${board.img_stored_file_yn == 0}">
+					<tr class="img_stored_file_no" >
+				</c:when>
+				<c:when test="${board.img_stored_file_yn > 0}">
+					<tr class="img_stored_file_yes" >
+				</c:when>
+			</c:choose>
+				<td style="width: 300px;">
+					<a href="detailBoard?board_id=${board.board_id}&b_common_board=${board.b_common_board }">${board.b_title }</a>
+				</td>
+				<td style="width: 100px;">
+					<a onclick="openUserPage(${board.member_id})">${board.m_nickname }</a>
+				</td>
+				<td style="width: 200px;">${board.getFormattedCreateDate() }</td>
+				<td style="width: 50px;">${board.b_like_cnt }</td>
+				<td style="width: 30px;">${board.b_view_cnt }</td>
+				
+				<c:set var="num" value="${num - 1 }"></c:set>
+			</tr>
          	</c:forEach>
       	</table>
    	</div>
