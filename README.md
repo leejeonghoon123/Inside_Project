@@ -23,7 +23,7 @@ https://drive.google.com/file/d/1nLhq2J0ERVnUseb9K_XnLkZEVF-jUPxo/view?usp=drive
 
 <h2>내가 만든 파트</h2>
 
-나 혼자 여행이라는 웹 사이트를 개발하며 여러 사람들이 여행 정보도 공유하고, 동행할 친구를 찾거나,
+나 혼자 여행이라는 웹 사이트를 개발하며 여러 사람들이 여행 정보도 공유하고,동행할 친구를 찾거나,
 커뮤니티 기능을 활발히 사용 할 수있도록 노력하였다.
 
 코드는 MVC 모델을 이용해 controller > service > dao 로 흐르게 하였고, 
@@ -66,7 +66,8 @@ model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하�
 
 이 외에 필요한 이미지가 있으면 컨셉에 맞추어 디자인하여 사용하였다.
 
-또한 여행이라는 컨셉에 맞게 여행지를 나타내는 청록색계열의 색을 사용하고, 둥글둥글한 css디자인으로 조금 더 라이트한 커뮤니티 느낌을 주었다.
+또한 여행이라는 컨셉에 맞게 여행지를 나타내는 청록색계열의 색을 사용하고,
+둥글둥글한 css디자인으로 조금 더 라이트한 커뮤니티 느낌을 주었다.
 ![3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/6e54f979-e291-4e38-a12e-d8e74703afef)
 
 ![4](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/4427e898-e010-4440-95af-2fe6a3fb538e)
@@ -206,8 +207,11 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 <h1>댓글, 대댓글</h1>
 
 게시글의 댓글, 대댓글 기능또한 구현해두었다. 
+
 댓글의 나열 순서는 먼저 작성한 순서대로 나열되게 해두었다.
+
 게시글과 댓글을 DB상으로 따로 테이블을 두지 않고, 하나의 BOARD테이블에 넣어 LEVEL로 나누어 구분한다.
+
 그리고 자신이 쓴 댓글의 경우, 수정,삭제가 나타나게 해 두었다.
 
 ![대댓글](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/81d02ce6-7e26-4ee8-aa7d-e33994d1aa9f)
