@@ -45,8 +45,14 @@ model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하�
 이번 내부 프로젝트의 주제가 '혼자 떠나는 여행'이기 때문에 최대한 주제에 맞는 색감과 디자인을 구성하였다.
 혼자 여행다니는 사람들의 기대되고 걱정되는 마음을 고슴도치를 이용하여 이번 프로젝트의 캐릭터로 디자인 하였다.
 
-![11](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/a14c32eb-f3a2-4d10-b244-bced7df9d045)![22](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/09a9c05b-9ba6-4e0a-9c8e-02ad0671ebc1)![33](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/c2cf46f8-8478-483d-b17a-426e38f4ed06)
-![화면 캡처 2023-04-11 174658](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/f6617c69-d138-4287-92fd-83f45a0d6e29)
+![1](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/bc727182-7732-4f0e-9659-56c7a0514d72)
+![2](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/b56e3d9d-7d91-47f0-b2d2-2a931ac39db4)
+![3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/cb4330d2-15c6-4dd9-afaf-f7c3a11d5ca7)
+고슴도치 캐릭터 디자인, 로고
+
+
+![4](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/5d92d7a5-f40c-489a-8744-18e6921f19c9)
+전체적인 디자인 색상
 
 
 이 외에 필요한 이미지가 있으면 컨셉에 맞추어 디자인하여 사용하였다.
