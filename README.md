@@ -168,7 +168,7 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 <br><br><br><br>
 
-<h1>이미지 업로드</h1>
+<h1>이미지 업로드, 수정, 삭제</h1>
 
 글 작성시 이미지를 첨부할수 있어야 작성자가 조금 더 시각적 정보제공이 편리하기 때문에 기능을 추가하였다.
 드래그하여 업로그시 여러장의 이미지를 업로드 할 수 있다. 
@@ -179,7 +179,20 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 ![이미지업로드2](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/556ae3c1-397b-4e48-936d-989c7000eeaa)
 
+    참고
+    
+    s20230404 / src / main / webapp / WEB-INF / views / ro / writeBoardForm.jsp 35줄 ~ 42줄
+    s20230404 / src / main / webapp / WEB-INF / views / ro / updateBoardForm.jsp 14줄 ~ 35줄, 56줄~86줄
+    
+    Controller
+    s20230404 / src / main / java/com/travelAlone / s20230404 / controller / BoardController.java  191줄~208줄, 264줄~279
+    
+    Service
+    s20230404 / src / main / java/com/travelAlone / s20230404 / service / board/BoardServiceImpl.java 
+    104줄~122줄, 145줄~168줄, 188줄 ~ 234줄
+    s20230404 / src / main / java/com/travelAlone / s20230404 / service / board / UploadHandler.java 
 
+<br><br><br><br>
 
 <h1>댓글, 대댓글</h1>
 
