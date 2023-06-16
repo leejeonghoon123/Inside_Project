@@ -40,6 +40,8 @@ model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하�
     mapper     =  s20230404 / src / main / resources / mappers / Board.xml, Bod_Img.xml, Warning.xml
 
 
+<br><br><br><br>
+
 
 <h3>디자인</h3>
 
@@ -69,6 +71,8 @@ model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하�
     참고 
     이미지  = s20230404 / src / main / resources / static / img / *.png
     CSS     = s20230404 / src / main / resources / static / *.css
+
+<br><br><br><br>
 
 
 <h3>페이징</h3>
