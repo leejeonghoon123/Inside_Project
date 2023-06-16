@@ -23,10 +23,12 @@ https://drive.google.com/file/d/1nLhq2J0ERVnUseb9K_XnLkZEVF-jUPxo/view?usp=drive
 
 <h2>내가 만든 파트</h2>
 
-나 혼자 여행이라는 웹 사이트를 개발하며 여러 사람들이 여행 정보도 공유하고,동행할 친구를 찾거나,
-커뮤니티 기능을 활발히 사용 할 수있도록 노력하였다.
+나 혼자 여행이라는 웹 사이트를 개발하며 여러 사람들이 여행 정보도 공유하고,
+
+동행할 친구를 찾거나,커뮤니티 기능을 활발히 사용 할 수있도록 노력하였다.
 
 코드는 MVC 모델을 이용해 controller > service > dao 로 흐르게 하였고, 
+
 model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하였다.
 
 커뮤니티 파트를 맡아서 밑에 참고 부분의 코드들을 개발하였다.
@@ -48,6 +50,7 @@ model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하�
 
 
 이번 내부 프로젝트의 주제가 '혼자 떠나는 여행'이기 때문에 최대한 주제에 맞는 색감과 디자인을 구성하였다.
+
 혼자 여행다니는 사람들의 기대되고 걱정되는 마음을 고슴도치를 이용하여 이번 프로젝트의 캐릭터로 디자인 하였다.
 
 ![1](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/bc727182-7732-4f0e-9659-56c7a0514d72)
@@ -67,6 +70,7 @@ model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하�
 이 외에 필요한 이미지가 있으면 컨셉에 맞추어 디자인하여 사용하였다.
 
 또한 여행이라는 컨셉에 맞게 여행지를 나타내는 청록색계열의 색을 사용하고,
+
 둥글둥글한 css디자인으로 조금 더 라이트한 커뮤니티 느낌을 주었다.
 ![3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/6e54f979-e291-4e38-a12e-d8e74703afef)
 
@@ -106,6 +110,7 @@ model 과 mapper를 통해 oracle db와 연결하여 정보를 가져오게 하�
 
 <h3>1</h3>
 현재 위치한 게시판 위치를 표시, 해당하는 게시판의 게시글만 보임.
+
 b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 ![필터링1](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/821df295-4d97-44eb-afb5-fd7018248f67)
@@ -117,6 +122,7 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 <h3>2</h3>
 위치한 게시판에서 이미지가 첨부된 게시글들만 필터링 해줌.
+
 체크박스 클릭 시 board 의 img_stored_file_yn 칼럼 값으로 필터링
 
    
@@ -132,6 +138,7 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 <h3>3</h3>
 게시판의 리스트 정렬방식을 원하는 방식으로 바꿔서 볼 수 있게 작성함.
+
 기본 값은 최신순으로 되어있음. 조회수 순이나 추천 순으로 바꿀 시 sql문에서 해당하는 조건으로 리스트 정렬
 
 ![필터링3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/633daeec-aec3-4866-948c-8c4720a1d397)
@@ -155,7 +162,9 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 
 ![추천2](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/d9aa0079-4c87-4509-b0ac-3afa67476d6a)
 
-만약 로그인하지 않은 회원의 경우 로그인 페이지로, 추천한 게시글일시 추천이 취소된다.
+만약 로그인하지 않은 회원의 경우 로그인 페이지로, 
+
+추천한 게시글일 경우 추천이 취소된다.
 
 ![추천3](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/74861e1c-5db1-4dbb-8304-fcb0ca48d00c)
 
@@ -177,6 +186,7 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 <h1>이미지 업로드, 수정, 삭제</h1>
 
 글 작성시 이미지를 첨부할수 있어야 작성자가 조금 더 시각적 정보제공이 편리하기 때문에 기능을 추가하였다.
+
 드래그하여 업로그시 여러장의 이미지를 업로드 할 수 있다. 
 
 ![이미지업로드](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/e7a46e22-649a-4b8d-b73e-1d1e5dd710bb)
@@ -245,6 +255,7 @@ b_common_board 라는 공용 테이블로 각각의 게시판 구분
 <h1>맴버페이지</h1>
 
 커뮤니티에서는 게시글이나 댓글의 작성자 닉네임을 클릭 시, 해당 작성자의 기본 정보창이 뜨도록 구성해두었다. 
+
 해당하는 정보창의 점수를 올려줄 수 있으며, 과도한 점수증가를 막기 위해 해당회원 + 추천항목 + 추천자 로 쿠키 키를 만들어 중복 확인 하였다.
 
 ![회원페이지1](https://github.com/leejeonghoon123/LJH_Portfolio2/assets/127282120/f68ec436-fe73-45de-a33b-6108447c999a)
